@@ -9,7 +9,7 @@
     display: none;
   }
 
-  .navigation {
+  nav {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
