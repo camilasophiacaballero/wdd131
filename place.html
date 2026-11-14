@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Country page about Honduras" />
+    <meta name="author" content="Camila Sophia Caballero" />
+
+    <title>Honduras | WDD131</title>
+
+    <link rel="stylesheet" href="styles/place.css" />
+    <script src="scripts/place.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Honduras</h1>
+    </header>
+
+    <main>
+      <section class="hero">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/honduras-large.webp"
+          />
+
+          <img
+            src="images/honduras-small.webp"
+            alt="Skyline of Tegucigalpa, Honduras with the Honduran flag"
+          />
+        </picture>
+      </section>
+
+      <section class="data">
+        <h2>Data</h2>
+
+        <p><strong>Area:</strong> 112,492 km²</p>
+        <p><strong>Population:</strong> 10.8 million</p>
+        <p><strong>Capital:</strong> Tegucigalpa</p>
+        <p><strong>Official Language:</strong> Spanish</p>
+        <p><strong>Currency:</strong> Honduran Lempira</p>
+        <p><strong>Time Zone:</strong> CST</p>
+        <p><strong>Flag:</strong> 🇭🇳</p>
+      </section>
+
+      <section class="weather">
+        <h2>Weather</h2>
+
+        <img
+          src="images/weather.svg"
+          alt="Cloudy weather icon"
+          class="weather-icon"
+        />
+
+        <p><strong>Temperature:</strong> 8°C</p>
+        <p><strong>Conditions:</strong> Cloudy</p>
+        <p><strong>Wind:</strong> 10 km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+      </section>
+    </main>
+
+    <footer>
+      <p id="year"></p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
